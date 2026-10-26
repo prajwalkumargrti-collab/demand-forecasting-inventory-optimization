@@ -57,3 +57,27 @@ The project is being developed collaboratively. Tasks are divided among team mem
 
 ## Important Note
 The recorded `Units Sold` and `Demand` values are not assumed to be interchangeable. Their meanings must be validated before model development.
+
+## How to Run the Project
+
+### 1. Clone the repository
+
+git clone https://github.com/prajwalkumargti-collab/demand-forecasting-inventory-optimization.git
+cd demand-forecasting-inventory-optimization
+
+
+### 2. Install dependencies
+
+python -m pip install -r requirements.txt
+
+### 3. Run data preprocessing
+
+python src/data_preprocessing.py
+
+### 4. Check the output
+After the script runs successfully, the cleaned dataset will be available at:
+
+`data/processed/cleaned_sales.csv`
+
+### Dataset
+The original dataset is available at `data/raw/sales_data.csv`. Keep this file in place before running the preprocessing script.
