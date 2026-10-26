@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Keep datasets local until sharing permission is confirmed
+data/raw/
+data/interim/
+data/processed/
